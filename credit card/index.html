@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily UI - Credit Card Form #002</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="details">
+            <h3>Payment Details</h3>
+
+            <form>
+                <div class="field">
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" name="email" autocomplete="off">
+                </div>
+
+                <div class="field">
+                    <label for="card">Credit Card Number</label>
+                    <input 
+                        id="card" 
+                        type="text"
+                        inputmode="numeric" 
+                        placeholder="xxxx xxxx xxxx xxxx" 
+                        maxlength="19"
+                        autocomplete="off"
+                        required>
+                </div>
+
+                <div class="field flex">
+                    <div class="field--date">
+                        <label for="date">Expiry Date</label>
+                        <input id="date" type="" placeholder="MM / YY">
+                    </div>
+                    <div class="field--cvv">
+                        <label for="cvv-number">CVV</label>
+                        <input 
+                            id="cvv-number" 
+                            type="text" 
+                            placeholder="xxx" 
+                            maxlength="3">
+                    </div>
+                </div>
+
+                <div class="check">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">I've a promo code</label>
+                </div>
+
+                <div class="amount-field">
+                    <div class="amount">
+                        <div>
+                            <p>Subtotal</p><span>$96</span>
+                        </div>
+                        <div>
+                            <p>Platform Fee</p><span>$4</span>
+                        </div>
+                    </div>
+                    <div class="top-border">
+                        <p>Total Amount</p><span>$100</span>
+                    </div>
+                </div>
+
+                <button>Make payment</button>
+            </form>
+        </div>
+
+        <div class="plans">
+            <div class="upper-card">
+                <h3>Subscribe and start saving your money today</h2>
+            </div>
+
+            <div class="lower-card">
+                <div class="lower-card-plan">
+                    <img src="./img.jpg" alt="image">
+                    <div class="monthly-plan">
+                        <p>Professional Plan</p>
+                        <p><strong>$96 / month</strong></p>
+                    </div>
+                </div>
+                <ul>
+                    <li>All features in <strong>basic included</strong></li>
+                    <li>Easy and flexible business with <strong>invoice management</strong></li>
+                    <li>Full time <strong>assistance</strong></li>
+                    <li><strong>20 TB</strong> cloud storage</li>
+                </ul>
+            </div>
+            
+            <a href="">Modify Plan</a>
+        </div>
+    </div>
+    
+    <div class="popup">
+        <img src="./tick-icon.png" alt="payment mark">
+        <p>Your payment was successful!</p>
+    </div>
+</body>
+</html>
