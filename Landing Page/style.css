@@ -30,3 +30,15 @@ a {
     text-decoration: none;
     color: #222;
 }
+
+.login-btn {
+    background-color: rgb(251, 217, 207);
+    color: orangered;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding:8px 16px;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
