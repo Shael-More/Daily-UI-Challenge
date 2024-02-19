@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="wrapper">
         <nav>
             <div class="brand">
-                <img src="./images/Capture.PNG" alt="logo">
-                <span><strong>Holmich</strong>.at</span>
+                <img src="./images/logo.png" alt="logo">
+                <h5 class="logo-title">Holmich<span>.at</span></h5>
             </div>
 
             <ul class="list">
                 <li><a href="#">Start</a></li>
                 <li><a href="#">How It Works</a></li>
                 <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
                 <li><a href="#">FAQs</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -25,7 +26,57 @@
             <button class="login-btn">Login</button>
         </nav>
     </header>
-    <main></main>
+    <main class="wrapper">
+        <div class="main--text">
+            <h1>The Online <br> Ordering System for Your Restaurant</h1>
+
+            <p>With holmich.at you can crete your own Shop within <br> 20 minutes - Easy to Setup and immediately ready to use</p>
+
+            <div class="field">
+                <input type="text" placeholder="Enter your restaurant name...">
+                <button class="main--btn">Get Started</button>
+            </div>
+
+            <div class="scroll--text">
+                <img src="./icons/mouse.png" alt="mouse icon">
+                <p> Scroll for feature</p>
+            </div>
+        </div>
+
+        <div class="main--img">
+            <div class="bg"></div>
+            <div class="card card-one">
+                <div class="card-rate">
+                    <img src="./images/card1.png" alt="card image" class="card-img">
+                    <div>
+                        <h5>Insalata Mista</h5>
+                        <p>4,70 &euro;</p>
+                    </div>
+                </div>
+                <div class="card-dish-items">
+                    <p>Blattsalat, Gurken,</p>
+                    <p>Tomaten, Zwiebel,</p>
+                    <p>Mais, Paprika</p>
+                </div>
+
+            </div>
+            <div class="card card-two">
+                <div class="card-rate">
+                    <img src="./images/card2.jpg" alt="card image" class="card-img" >
+                    <div>
+                        <h5>Marjellchen</h5>
+                        <p>4.5 &#128954; </p>
+                    </div>
+                </div>
+                <div class="card-dish-items">
+                    <p>Mommsenstrabe 9, 10629</p>
+                    <p>Berline, Germany</p>
+                </div>
+
+            </div>
+            <img class="hero-img" src="./images/main.png" alt="main image" >
+        </div>
+    </main>
     <section></section>
 </body>
 </html>
