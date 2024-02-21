@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Daily UI - Landing Page #003</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -26,6 +29,9 @@
             <button class="login-btn">Login</button>
         </nav>
     </header>
+
+    <!------------- Hero Section ------------------->
+    
     <main class="wrapper">
         <div class="main--text">
             <h1>The Online <br> Ordering System for Your Restaurant</h1>
@@ -47,13 +53,13 @@
             <div class="bg"></div>
             <div class="card card-one">
                 <div class="card-rate">
-                    <img src="./images/card1.png" alt="card image" class="card-img">
+                    <img src="./images/card1.jpg" alt="card image" class="card-img">
                     <div>
                         <h5>Insalata Mista</h5>
-                        <p>4,70 &euro;</p>
+                        <p class="rate">4,70 &euro;</p>
                     </div>
                 </div>
-                <div class="card-dish-items">
+                <div class="card-desc">
                     <p>Blattsalat, Gurken,</p>
                     <p>Tomaten, Zwiebel,</p>
                     <p>Mais, Paprika</p>
@@ -65,10 +71,10 @@
                     <img src="./images/card2.jpg" alt="card image" class="card-img" >
                     <div>
                         <h5>Marjellchen</h5>
-                        <p>4.5 &#128954; </p>
+                        <p class="rate">4.5 &#128954; </p>
                     </div>
                 </div>
-                <div class="card-dish-items">
+                <div class="card-desc">
                     <p>Mommsenstrabe 9, 10629</p>
                     <p>Berline, Germany</p>
                 </div>
@@ -88,21 +94,27 @@
         </div>
 
         <div class="works--section">
-            <div>
+            <div class="section--image">
                 <img src="./images/restaurant.jpg" alt="image 1" class="works--img" >
                 <div class="section-card">
                     <h5>Register</h5>
-                    <div class="block"></div>
-                    <div class="block"></div>
+                    <div class="block">
+                        <i class="fa-regular fa-circle-dot"></i>
+                        <div></div>
+                    </div>
+                    <div class="block">
+                        <i class="fa-solid fa-lock-open"></i>
+                        <div></div>
+                    </div>
                 </div>
             </div>
             
             <div class="section--subtitle">
-                <div class="icon-box">
-                    <img src="./icons/r-1.png" alt="icon">
+                <div class="icon-box box-one">
+                    <img src="./icons/spoonknife.png" alt="icon">
                 </div>
                 <h3>Register your restaurant</h3>
-                <p>Maintain your dishes from everywhere. Add new dishes, upload photos, adapt</p>
+                <p>Maintain your dishes from everywhere. <br> Add new dishes, upload photos, adapt</p>
                 
                 <button class="btn">Get Started</button>
             </div>
@@ -110,35 +122,87 @@
         
         <div class="works--section">
             <div class="section--subtitle">
-                <p>icon</p>
+                <div class="icon-box box-two">
+                    <img src="./icons/cookbook.png" alt="icon">
+                </div>
                 <h3>Add dishes to your menu</h3>
-                <p>Maintain your dishes from everywhere. Add new dishes, upload photos, adapt</p>
+                <p>Maintain your dishes from everywhere. <br> Add new dishes, upload photos, adapt</p>
                 
                 <button class="btn">Get Started</button>
             </div>
             
             <div class="section--image">
                 <img src="./images/menu.jpg" alt="image 1" class="works--img">
-                <div class="section--card"></div>
-                <div class="section--card"></div>
+
+                <div class="section--card work-card-one">
+                    <div>
+                        <img src="./images/pizza-card.jpg" alt="pizza image" class="card-img">
+                        <div>
+                            <h5>Verdura</h5>
+                            <p class="rate">8,30 &euro;</p>
+                        </div>
+                    </div>
+                    <p class="card-desc">Verschiedene Gemusesorten inklusive Champignons</p>
+                </div>
+                
+                <div class="section--card work-card-two">
+                    <div>
+                        <img src="./images/kebab-card.jpg" alt="kebab image" class="card-img">
+                        <div>
+                            <h5>Kebap</h5>
+                            <p class="rate">3,70 &euro;</p>
+                        </div>
+                    </div>
+                    <p class="card-desc">Anatolisches Bauernbrot mit Donerfleisch,Tomaten, Salat, Zwiebel, Sauce</p>
+                </div>
             </div>
         </div>
         
         <div class="works--section">
             <div class="section--image">
                 <img src="./images/counter.jpg" alt="image 1" class="works--img">
-                <div class="section--card"></div>
-                <div class="section--card"></div>
+                <div class="share-card-one">
+                    <div>
+                        <img src="./icons/food-cover.png" alt="food cover">
+                    </div>
+
+                    <h5>3 nenu Bestellungen</h5>
+                </div>
+                <div class="share-card-two">
+                    <div class="share-flex">
+                        <img src="./icons/chef-hat.png" alt="chef hat" width="30px">
+                        <h5 class="rate">myresataurant.holmich.at</h5>
+                    </div>
+                    <div class="share-flex">
+                        <div>
+                            <img src="./images/pizza-card.jpg" alt="pizza" class="card-img">
+                            <h5>Kebap</h5>
+                        </div>
+                        <p class="rate">3,70 &euro;</p>
+                    </div>
+                    <div class="share-flex">
+                        <div>
+                            <img src="./images/card1.png" alt="salad" class="card-img">
+                            <h5>Beilagensalat</h5>
+                        </div>
+                        <p class="rate">4,70 &euro;</p>
+                    </div>
+                </div>
             </div>
             <div class="section--subtitle">
-                <p>icon</p>
+                <div class="icon-box box-three">
+                    <img src="./icons/link.png" alt="icon">
+                </div>
                 <h3>Share the link and receive orders immediately</h3>
-                <p>Maintain your dishes from everywhere. Add new dishes, upload photos, adapt</p>
-    
+                <p>Maintain your dishes from everywhere. <br> Add new dishes, upload photos, adapt</p>
+                
                 <button class="btn">Get Started</button>
             </div>
+            <img class="side-img" src="" alt="">
+        </div> 
+    </section>
 
-        </div>
+    <section id="#features">
 
     </section>
 </body>
