@@ -190,7 +190,7 @@ main {
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 6px;
+    margin-right: 10px;
 }
 
 .card .card-rate p {
@@ -198,12 +198,12 @@ main {
     font-weight: 600;
 }
 
-.card .card-dish-items {
+.card-desc {
     color: #6c757d;
-    padding: 8px;
+    padding: 6px;
 }
 
-/* How it works */
+/* -----------------How it works------------ */
 
 .works--title {
     text-align: center;
@@ -223,9 +223,157 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 100px;
+}
+/* 
+.section-img {
+    position: relative;
+
+} */
+
+.section--image {
+    position: relative;
 }
 
 .works--img {
     width: 28rem;
+    height: 350px;
     margin-right: 40px;
+}
+
+.section-card {
+    width: 200px;
+    height: 120px;
+    background-color: #fff;
+    color: #eb5e28;
+    padding: 8px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 50px rgba(0,0,0,0.2);
+}
+
+.section-card .block {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f8fd;
+    margin: 8px;
+    border-radius: 25px;
+}
+
+.block i {
+    color: #6c757d;
+}
+
+.block div {
+    width: 70%;
+    height: 4px;
+    margin-left: 10px;
+    background-color: #adadad;
+}
+
+.section--subtitle {
+    margin: 0 50px;
+}
+
+.section--subtitle .icon-box {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+
+.box-one {
+    background-color: #f9efed;
+}
+
+.box-two {
+    background-color: #e7f8fd;
+}
+
+.box-three {
+    background-color: #f9efed;
+} 
+
+.section--subtitle h3 {
+    font-size: 2rem;
+    padding: 40px 0;
+
+}
+
+.section--subtitle p {
+    font-size: 1.2rem;
+}
+
+.section--subtitle .btn {
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    margin: 20px 0;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #f5f3f3;
+}
+
+.work-card-one, .work-card-two {
+    position: absolute;
+    width: 220px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: #fff;
+}
+
+.work-card-one > div, 
+.work-card-two > div{
+    display: flex;
+}
+
+.work-card-one {
+    top: -60px;
+    left: 250px;
+}
+
+.work-card-two {
+    top: 280px;
+    left: -50px;
+}
+
+.rate  {
+    color: #eb5e28;
+    
+}
+
+.share-card-one {
+    position: absolute;
+    background-color: #fff;
+    width: 250px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    top: 20px;
+    left: -30px;
+
+}
+
+.share-card-two {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    width: 250px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.share-flex, .share-flex div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
 }
