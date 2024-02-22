@@ -388,9 +388,12 @@ main {
 }
 
 .grid-item {
-    width: 20vhpx;
+    width: 40vh;
     background: #fff;
     padding: 20px;
+}
+
+.grid-item:hover {
     box-shadow: 0 1px 20px rgba(0,0,0,0.2);
 }
 
