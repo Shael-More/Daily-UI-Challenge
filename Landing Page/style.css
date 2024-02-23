@@ -407,3 +407,111 @@ main {
     font-size: 1rem;
     color: #6E6F6F;
 }
+
+/* ------------------Pricing------- */
+
+
+.center {
+    text-align: center;
+}
+
+.off-box {
+    width: 300px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    border-radius: 40px; 
+}
+
+.monthly {
+    padding: 8px 40px;
+    margin-left: 2px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: #fff;
+}
+
+.yearly {
+    display: flex;
+    align-items: center;
+}
+
+.yearly span {
+    font-size: 0.8rem;
+    color: #666;
+}
+.off {
+    background-color: #fff;
+    font-size: 0.8rem;
+    margin: 8px 6px;
+    padding: 3px; 
+    border: none;
+    outline: none;
+    border-radius: 25px;   
+}
+
+.plans {
+    display: flex;
+    border: 1px solid lightgray;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.free, .normal {
+    width: 50%;
+    padding: 20px;
+}
+
+.plans h3 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 2.6rem;
+    margin: 10px 0;
+}
+
+.plans ul{
+    margin: 10px 0;
+    list-style-type: none;
+    line-height: 3;
+}
+
+.normal {
+    background: #333;
+    color: #fff;
+}
+.free p, .normal p {
+   font-size: 0.7rem;
+   color: #aaa; 
+}
+
+.normal span {
+    font-size: 0.8rem;
+}
+
+.free button, .normal button {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: 25px;
+}
+
+.free-btn {
+    background-color: #eee;
+}
+
+.normal-btn {
+    background-color:#eb5e28;
+    color: #fff;
+}
+
