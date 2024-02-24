@@ -540,7 +540,106 @@ main {
     padding: 20px;
 }
 
-.select {
+.faq-box:hover, .select {
     background-color: #f0f8fa;
     cursor: pointer;
+
+}
+
+/* ---------------Contact --------- */
+
+form {
+    margin: 50px;
+}
+
+.field-group {
+    width: 400px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.field-group input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 10px;
+    color: #999;
+    font-size: 1rem;
+    background-color:#f6f6f6;
+    padding-left: 60px;
+}
+
+.field-group textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: #999;
+    font-size: 1rem;
+    background-color:#f6f6f6;
+    resize:none;
+}
+.field-group input::placeholder,
+.field-group textarea::placeholder {
+    color: #999;
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    color: #8c8a8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.field-group input:focus ~ .icon {
+    color: #393838;
+}
+
+.field-group button {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: 25px;
+    background-color:#eb5e28;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.getting-started {
+    text-align: center;
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background:rgba(0,0,0,0.6) url(./images/bg-img.jpg) center no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-blend-mode: darken;
+}
+
+.getting-started h3 {
+    font-size: 2.5rem;
+    padding: 30px;
+}
+
+.getting-started p {
+    color: #adafaf;
+    padding: 10px 60px;
+}
+
+.getting-started .field {
+    width: 50%;
+    margin: 20px auto;
 }
