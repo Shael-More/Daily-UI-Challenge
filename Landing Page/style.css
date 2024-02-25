@@ -670,3 +670,59 @@ form {
     background-color: #eb5e28;
     color: #fff;
 }
+
+/* Footer */
+
+footer {
+    margin: 100px auto;
+    width: 60%;
+    background-color: #000;
+    padding: 50px;
+}
+
+.footer-nav, .rights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.footer-nav {
+    border-bottom: 1px solid #444;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo span {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+
+
+footer a {
+    text-decoration: none;
+    color: #666;
+}
+
+footer a:hover {
+    color: #eb5e28;
+}
+
+footer p {
+    color: #666;
+}
+
