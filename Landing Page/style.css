@@ -411,6 +411,16 @@ main {
 
 /* ------------------Pricing------- */
 
+.faq-bg {
+    position: relative;
+    padding: 50px 0;
+}
+
+.faq-img {
+    width: 40vh;
+    position: absolute;
+    top: 0;
+}
 
 .center {
     text-align: center;
@@ -548,6 +558,25 @@ main {
 
 /* ---------------Contact --------- */
 
+.contact-container {
+    position: relative;
+}
+
+.contact-img-one, .contact-img-two {
+    position: absolute;
+}
+
+.contact-img-one {
+    top: 30%;
+    left: -10%;
+    width: 70vh;
+}
+.contact-img-two {
+    top: 20px;
+    right: -5%;
+    width: 60vh;
+}
+
 form {
     margin: 50px;
 }
@@ -617,16 +646,41 @@ form {
     margin-top: 20px;
 }
 
+/* join section*/
+
+.join-section {
+    position: relative;
+}
+
+.join-one {
+    position: absolute;
+    top: 20%;
+    right: -5%;
+} 
+.join-two {
+    position: absolute;
+    top: -30px;
+    left: -10%;
+}
+
+.join-img {
+    width: 60vh;
+}
+
 .getting-started {
     text-align: center;
-    width: 60%;
-    height: 300px;
+    width: 80%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px 20px;
     background:rgba(0,0,0,0.6) url(./images/bg-img.jpg) center no-repeat;
     background-size: cover;
     color: #fff;
     background-blend-mode: darken;
+}
+
+.join-info {
+    width: 60%;
+    margin: 0 auto;
 }
 
 .getting-started h3 {
@@ -671,12 +725,13 @@ form {
     color: #fff;
 }
 
+
 /* Footer */
 
 footer {
-    margin: 100px auto;
-    width: 60%;
-    background-color: #000;
+    margin: 10rem auto;
+    width: 80%;
+    background-color: #222222;
     padding: 50px;
 }
 
@@ -726,3 +781,29 @@ footer p {
     color: #666;
 }
 
+.rule {
+    margin: 5rem auto;
+    width: 80%;
+}
+
+.css-rule {
+    height: 100vh;
+    width: 80%;
+    margin: 6rem auto;
+}
+
+.one {
+    background-color: red;
+}
+.two {
+    background-color: blue;
+}
+.three {
+    background-color: purple;
+}
+.four {
+    background-color: green;
+}
+.five {
+    background-color: yellow;
+}
