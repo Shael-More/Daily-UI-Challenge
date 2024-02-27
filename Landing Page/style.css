@@ -205,6 +205,26 @@ main {
 
 /* -----------------How it works------------ */
 
+.work-container {
+    position: relative;
+}
+
+.work-container .img-side {
+    position: absolute;
+    width: 60vh;
+}
+
+.img-one {
+    top: 10%;
+    left: -20%;
+}
+
+.img-two {
+    bottom: -10%;
+    right: -10%;
+}
+
+
 .works--title {
     text-align: center;
 }
@@ -457,10 +477,11 @@ main {
     color: #666;
 }
 .off {
-    background-color: #fff;
-    font-size: 0.8rem;
+    background-color: #eb5e28;
+    color: #fff;
+    font-size: 0.7rem;
     margin: 8px 6px;
-    padding: 3px; 
+    padding: 3px 6px; 
     border: none;
     outline: none;
     border-radius: 25px;   
