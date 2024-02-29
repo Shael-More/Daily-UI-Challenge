@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 8px;    
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background:linear-gradient(to right, blue, rgba(0,0,0,0.7));
+    /* background-color: #222; */
+    position: relative;
+    border-radius: 8px;
+}
+
+.header-img-box {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -40px;
+
+}
+
+.info {
+    text-align: center;
+}
+
+.username {
+    padding-top: 30px;
+    color: #999;
+    font-size: 14px;
+}
+
+.name {
+    font-size: 18px;
+}
+
+.info p span {
+    color: blueviolet;
+    padding: 0 8px;
+    border-right: 1px solid gray;   
+    font-size: 14px; 
+    margin-right: 6px; 
+}
+
+.info .joined {
+    color: #999;
+    font-size: 14px;
+}
+
+button {
+    padding: 5px 8px ;
+    background: #fff;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button i {
+    margin-right: 3px
+}
+
+.about {
+    color: #222;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 14px;
+}
+
+.contact-info h2 {
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.row span i{
+    padding: 0 7px;
+}
+
+.row span {
+    color: #777;
+}
+.row p {
+ font-weight: 600;    
+}   
